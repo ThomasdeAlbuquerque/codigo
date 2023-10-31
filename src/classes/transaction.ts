@@ -1,17 +1,17 @@
 export class transaction {
-    valor:number
-    id1:string
-    id2:string
+    valor: number
+    id1: string
+    id2: string
     date = new Date
     constructor(
         valorFornecido: number,
-        idFornecido: string,
+        id1Fornecido: string,
+        id2Fornecido: string,
+
       ) {
         this.valor = valorFornecido;
-        this.id1 = idFornecido;           
-        this.id2 = idFornecido;
+        this.id1 = id1Fornecido;           
+        this.id2 = id2Fornecido;
 
       }
     }
-
-console.log(transaction)
